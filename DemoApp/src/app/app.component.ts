@@ -46,4 +46,7 @@ export class AppComponent implements OnInit, AfterViewInit{
     console.log(f.status);
   }
 
+  refreshData(){
+    this.f.reset();
+  }
 }
